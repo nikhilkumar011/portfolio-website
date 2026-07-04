@@ -28,7 +28,7 @@ export default function Hero() {
             and this link will download it directly.
           */}
           <a
-            href="/Nikhil_Kumar_Tiwari_CV.pdf"
+            href="/res.png"
             download
             className="inline-flex items-center gap-2 rounded-lg bg-neutral-900 px-5.5 py-3.5 text-sm font-semibold text-white transition-opacity hover:opacity-85 active:scale-[0.97] dark:bg-white dark:text-black"
           >
