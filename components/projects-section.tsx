@@ -8,6 +8,13 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
+    name: "LeetCode Clone",
+    desc: "A full-stack LeetCode-inspired coding platform where users can solve programming problems, run code in multiple languages, and receive instant feedback through an integrated online code execution system.Built with Next.js, Prisma, PostgreSQL, Judge0, and Better Auth, it features secure authentication, problem management, test case validation, submissions, and role-based access for admins and users.",
+    tags: ["Next.js", "Postgresql", "Prisma", "docker", "Judge0","BetterAuth"],
+    url: "https://github.com/nikhilkumar011/Leetcode-Clone",
+    full: true,
+  },
+  {
     name: "Visitor Pass Management System",
     desc: "Full-stack MERN system for managing visitor requests, approvals, QR-based entry, and automated email notifications for organizations.",
     tags: ["MongoDB", "Express", "React", "Node.js", "QR Code"],
