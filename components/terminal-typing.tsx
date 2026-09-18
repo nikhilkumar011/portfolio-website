@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react";
 
 const PHRASES = [
   "whoami -> Computer Science engineer",
-  "cat skills.json | grep MERN",
-  "npm run build-future",
+  "cat skills.json | grep 'MERN + AI'",
+  "npm run build-ml-products",
 ];
 
 export default function TerminalTyping() {

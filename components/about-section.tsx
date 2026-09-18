@@ -13,34 +13,33 @@ export default function AboutSection() {
           <div className="space-y-4.5 text-[15.5px] leading-[1.8] text-neutral-500 dark:text-neutral-400">
             <p>
               I&apos;m <strong className="font-semibold text-neutral-900 dark:text-white">Nikhil Kumar Tiwari</strong>,
-              a Computer Science engineering student who enjoys taking an idea all the way from a
-              database schema to a deployed, working interface. Most of what I build lives in the{" "}
-              <strong className="font-semibold text-neutral-900 dark:text-white">MERN stack</strong>, with growing
-              experience in <strong className="font-semibold text-neutral-900 dark:text-white">Java &amp; Spring Boot</strong>{" "}
-              for backend systems.
+              a Computer Science engineering student who enjoys taking ideas from concept to
+              deployment with modern web products, intelligent workflows, and AI-powered features.
+              Most of what I build sits in the <strong className="font-semibold text-neutral-900 dark:text-white">MERN stack</strong>{" "}
+              and <strong className="font-semibold text-neutral-900 dark:text-white">Next.js</strong>, with strong focus on
+              <strong className="font-semibold text-neutral-900 dark:text-white"> AI/ML, RAG systems, and agentic applications</strong>.
             </p>
             <p>
-              I like systems that have a real workflow behind them — approvals, authentication,
-              real-time updates — rather than just static pages. That&apos;s shown up in projects
-              ranging from a{" "}
-              <strong className="font-semibold text-neutral-900 dark:text-white">visitor management system</strong> with
-              QR-based entry to a{" "}
-              <strong className="font-semibold text-neutral-900 dark:text-white">real-time chat application</strong>{" "}
-              built on Socket.IO.
+              I like building products that combine product thinking with technical depth — search,
+              recommendations, personalization, workflow automation, and retrieval experiences that
+              make software feel intelligent. That&apos;s shown up in projects ranging from a{" "}
+              <strong className="font-semibold text-neutral-900 dark:text-white">LeetCode-style coding platform</strong>{" "}
+              to a <strong className="font-semibold text-neutral-900 dark:text-white">visitor management system</strong> with
+              QR-based entry and workflow automation.
             </p>
             <p>
               Outside of project work, I&apos;m steadily going deeper into{" "}
               <strong className="font-semibold text-neutral-900 dark:text-white">
-                DSA, DBMS, Operating Systems and Computer Networks
+                AI/ML fundamentals, retrieval systems, prompt design, data structures, and system design
               </strong>{" "}
-              — the fundamentals that make the frameworks make sense.
+              — the foundations behind robust software and intelligent experiences.
             </p>
           </div>
 
           <div className="grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-black/10 bg-black/10 dark:border-white/10 dark:bg-white/10">
             <StatCell num="7+" label="Projects shipped" />
             <StatCell num="MERN" label="Primary stack" />
-            <StatCell num="Java" label="+ Spring Boot" />
+            <StatCell num="AI" label="+ RAG/ML" />
             <StatCell num="CS" label="Engineering student" />
           </div>
         </div>

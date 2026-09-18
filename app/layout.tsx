@@ -10,7 +10,7 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jet
 export const metadata: Metadata = {
   title: "Nikhil Kumar Tiwari — Portfolio",
   description:
-    "Computer Science engineering student building full-stack software with the MERN stack, Java and Spring Boot.",
+    "Computer Science engineering student building modern full-stack products with the MERN stack, Next.js, and AI systems powered by LLMs, RAG, and machine learning workflows.",
 };
 
 export default function RootLayout({
