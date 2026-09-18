@@ -3,21 +3,22 @@
 import { useState } from "react";
 
 const SKILLS: Record<string, string[]> = {
-  Languages: ["C++", "Java", "JavaScript", "TypeScript", "Python", "SQL", "C"],
+  Languages: ["JavaScript", "TypeScript", "Python", "C++", "SQL", "C"],
   Frontend: ["React.js", "Next.js", "Tailwind CSS", "Shadcn/UI", "TanStack Query", "HTML5", "CSS3"],
   Backend: [
     "Node.js",
     "Express.js",
-    "Spring Boot",
+    "Next.js API Routes",
     "REST APIs",
     "JWT Auth",
     "Socket.IO",
     "Better Auth",
-    "Java Servlets",
+    "RAG Pipelines",
   ],
-  Databases: ["MongoDB", "Mongoose", "PostgreSQL", "Prisma ORM"],
-  Tools: ["Git", "GitHub", "Postman", "Vercel", "Linux"],
-  Concepts: ["Data Structures & Algorithms", "OOP", "DBMS", "Operating Systems", "Computer Networks", "RESTful API Design"],
+  Databases: ["MongoDB", "Mongoose", "PostgreSQL", "Prisma ORM", "Vector Stores"],
+  AI: ["LLMs", "Prompt Engineering", "RAG", "Fine-tuning", "Model Evaluation", "LangChain", "Python ML"],
+  Tools: ["Git", "GitHub", "Postman", "Vercel", "Linux", "Docker"],
+  Concepts: ["Data Structures & Algorithms", "OOP", "DBMS", "System Design", "AI Workflows", "RESTful API Design"],
 };
 
 const CATEGORIES = Object.keys(SKILLS);

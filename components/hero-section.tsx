@@ -14,12 +14,12 @@ export default function Hero() {
         <h1 className="mb-4.5 font-display text-[clamp(34px,6vw,64px)] font-bold leading-[1.05] tracking-tight">
           Nikhil Kumar Tiwari
           <br />
-          <span className="text-indigo-600 dark:text-indigo-400">builds full-stack software.</span>
+          <span className="text-indigo-600 dark:text-indigo-400">builds AI-powered web products.</span>
         </h1>
 
         <p className="mb-9 max-w-lg text-[17px] leading-relaxed text-neutral-500 dark:text-neutral-400">
-          Engineering student in Computer Science, focused on building real, working products
-          with the MERN stack and Java — from QR-based visitor systems to real-time chat apps.
+          Engineering student in Computer Science, focused on building modern web experiences with
+          the MERN stack, Next.js, and AI systems — from RAG-powered apps to real-time workflows and intelligent user experiences.
         </p>
 
         <div className="flex flex-wrap items-center gap-3.5">
