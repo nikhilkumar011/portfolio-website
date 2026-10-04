@@ -28,9 +28,9 @@ const PROJECTS: Project[] = [
     url: "https://github.com/nikhilkumar011/unmuteX",
   },
   {
-    name: "AI Chat Assistant",
-    desc: "A conversational app focused on intelligent search and structured responses, built to explore practical AI workflows with modern web interfaces.",
-    tags: ["Next.js", "LLM", "RAG", "OpenAI"],
+    name: "Chat App",
+    desc: "A real-time chat application built with the MERN stack for instant messaging and live conversations.",
+    tags: ["MongoDB", "Express", "React", "Node.js", "Real-time"],
     url: "https://github.com/nikhilkumar011/Fullstack-Chat-Application",
   },
   {
@@ -65,7 +65,7 @@ export default function ProjectsSection() {
       <div className="mx-auto max-w-5xl">
         <div className="mb-12 flex items-baseline gap-3.5">
           <span className="whitespace-nowrap font-mono text-xs text-indigo-600 dark:text-indigo-400">
-            // 03 PROJECTS
+            {"// 03 PROJECTS"}
           </span>
           <div className="h-px flex-1 bg-black/15 dark:bg-white/15" />
         </div>
