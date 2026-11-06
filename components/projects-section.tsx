@@ -8,12 +8,13 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
-  name: "Glucose Twin",
-  desc: "An AI-powered glucose monitoring dashboard built with Next.js, FastAPI, and Python. It visualizes patient glucose readings, historical trends, and risk indicators through interactive charts and a 3D digital twin, with replay-based simulation using CGMacros data.",
-  tags: ["Next.js", "React", "Python", "FastAPI", "XGBoost", "Pandas"],
-  url: "https://github.com/god-akash/Glucose_Twin",
+  name: "CommonPlace – Multi-Agent AI Platform",
+  desc: "A multi-agent AI platform built with Next.js, Node.js, and TypeScript, featuring 5 specialized AI agents and 4 backend microservices. Implements agent orchestration, intelligent task execution, and scalable service communication to power AI-driven workflows through an interactive web interface.",
+  tags: ["Next.js", "TypeScript", "Node.js", "AI Agents", "Microservices", "Docker"],
+  url: "https://github.com/nikhilkumar011/CommonPlace-MultiagentAiPlatform",
   full: true,
 },
+  
   {
     name: "LeetCode Clone",
     desc: "A full-stack coding platform inspired by LeetCode, built with Next.js, Prisma, PostgreSQL, Judge0, and Better Auth. It supports problem management, secure auth, code execution, submissions, and admin workflows for a polished developer experience.",
